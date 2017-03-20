@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow: hidden;
+}
+header{
+    width: 1366px;
+    height: 350px;
+    background-image: url('../uricons/woman-thinking-about-cell-phone-spy-monitoring-app.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.menu{
+    width: 1366px;
+    height: 70px;
+    margin: 0px 400px 0px 400px;
+    position: absolute;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 20px 8px;
+    
+}
+.menu ul li a:hover{
+    color: black;
+    background-color: darkgray;
+    transform: scale(1);
+    transition: all 0.4s;
+}
+.whywedoit{
+    padding-top: 50px;
+    width: 1366px;
+    height: 280px;
+    text-align: center;
+}
+.why{
+    display: inline-block;
+    color: dimgray;
+    font-size: 50px;
+    float: left;
+    width: 500px;
+    padding-top: 50px;
+}
+.formtosaveyouideas{
+    width: 1366px;
+    height: 750px;
+}
+.form{
+    margin-left: 483px;
+    width: 400px;
+    height: 268px;
+}
+.textform{
+    width: 1000px;
+    height: 450px;
+    margin-left: 183px;
+}
+.ideatitle{
+    width: 990px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.ideaarea{
+    width: 980px;
+    height: 300px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.again{
+    margin-top: 40px;
+}
+.guestuser{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    color: darkgray;
+    background-color: white;
+    border: 2px solid darkgray;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.guestuser:hover{
+    color: white;
+    background-color: darkgray;
+    border: none;
+}
+.interlude{
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+}
+.uremail{
+    width: 180px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 4px;
+    margin-top: 10px;
+}
+.urpassword{
+    width: 180px;
+    height: 30px;
+    padding-left: 10px;
+}
+.uracc{
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: #5FFB17;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.googlelogin{
+    width: 400px;
+    height: 40px;
+    color: #38ACEC;
+    background-color: white;
+    border: 2px solid #38ACEC;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.googlelogin:hover{
+    color: white;
+    background-color: #38ACEC;
+    border: none;
+}
+.whatwedo{
+    width: 1366px;
+    height: 350px;
+    margin-top: 50px;
+}
+.whatwedo h4{
+    margin-top: 50px;
+    color: dimgray;
+    text-align: center;
+    font-size: 40px;
+}
+.whatwedo ul li{
+    list-style: none;
+    float: left;
+}
+.whatwedo ul li a{
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 322px;
+    margin-top: 50px;
+}
+.whatwedo ul li .premium{
+    color: dimgray;
+    border: 2px solid #00FF00;
+}
+.whatwedo ul li .group{
+    color: dimgray;
+    border: 2px solid #38ACEC;
+}
+.howwedoit{
+    width: 1366px;
+    height: 500px;
+    background-color: blue;
+}
+.wherewedoit{
+    width: 1366px;
+    height: 500px;
+    background-color: green;
+}
+.whoweare{
+    width: 1366px;
+    height: 500px;
+    background-color: red;
+}
+.formtosaveyouideasagain{
+    width: 1366px;
+    height: 268px;
+}
+.slider{
+    width: 10px;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0.8px;
+    z-index: 2;
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+}
+.slider:hover{
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+}
+.slidebar{
+    width: 10px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.slidebar:hover{
+    background-color: dimgray;
+}
